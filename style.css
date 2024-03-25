@@ -1,0 +1,29 @@
+#clock{
+    color: #0071D0;
+ font-weight: bold;
+  font-size: 20px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    text-align: center;
+  }
+  .static {
+    margin-right: 15px;
+  }
+  .runaway-button {
+    position: absolute;
+    cursor: pointer;
+    transition: 0.3s;
+  }
