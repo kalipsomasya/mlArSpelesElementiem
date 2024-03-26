@@ -1,23 +1,77 @@
 #clock{
-    color: #0071D0;
+    color: #FF6768;
  font-weight: bold;
   font-size: 20px;
 }
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
+
+
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #17223B;
+
   }
   
+.jaut{
+
+
+box-sizing: border-box;
+
+position: absolute;
+height: 152px;
+left: 325px;
+right: 325px;
+bottom: 584px;
+
+background: #6B778D;
+border: 1px solid #000000;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+
+
+}
   .container {
-    position: relative;
-    width: 500px;
-    height: 500px;
-    border: 1px solid #000;
+align-items: center;
+position: absolute;
+height: 100px;
+left: 478px;
+right: 478px;
+bottom: 450px;
+
+
+  }
+
+
+  .button-62 {
+    background-color: #FF6768;
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
     text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+  }
+  
+  .button-62:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
+  
+  .button-62:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
   }
   .static {
     margin-right: 15px;
@@ -27,3 +81,21 @@ body {
     cursor: pointer;
     transition: 0.3s;
   }
+
+.laiks {
+
+
+box-sizing: border-box;
+border-radius: 50px;
+position: absolute;
+width: 748px;
+height: 185px;
+left: 654px;
+top: 35px;
+
+background: #263859;
+border: 1px solid #000000;
+backdrop-filter: blur(2px);
+
+
+}
