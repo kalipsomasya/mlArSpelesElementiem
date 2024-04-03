@@ -1,24 +1,32 @@
 
+//time
+      function updateDateTime() {
+        const now = new Date();
+        const currentDateTime = now.toLocaleString();
+        document.querySelector('#datetime').textContent = currentDateTime;
+      };
+      setInterval(updateDateTime, 1000);
+//buttn
 
-window.onload = function(){
-    window.setInterval(function(){
-         var now = new Date();
-          var clock = document.getElementById("clock");
-        clock.innerHTML = now.toLocaleTimeString();
-    }, 1000);
-   };
+function getObj(objID)
+{
+    if (document.getElementById) {return document.getElementById(objID);}
+    else if (document.all) {return document.all[objID];}
+    else if (document.layers) {return document.layers[objID];}
+}
+var ie4=document.all;
+var ns6=document.getElementById&&!document.all;
+cobj=getObj("button1");
 
-
-   function moveButton() {
-    const button = document.querySelector('.runaway-button');
-    const container = document.querySelector('.container');
-  
-    const maxX = container.clientWidth - button.clientWidth;
-    const maxY = container.clientHeight - button.clientHeight;
-  
-    const randomX = Math.random() * maxX;
-    const randomY = Math.random() * maxY;
-  
-    button.style.left = `${randomX}px`;
-    button.style.top = `${randomY}px`;
-  }
+function moveIt(){
+y=Math.floor(Math.random()*301);
+x=Math.floor(Math.random()*401);
+if (ie4){
+	cobj.style.top  = y;
+	cobj.style.left = x;
+	}
+else if (ns6){
+	cobj.style.top  = y+"px";
+	cobj.style.left = x+"px";
+	}
+}

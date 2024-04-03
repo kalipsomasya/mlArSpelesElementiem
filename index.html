@@ -2,24 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nosleguma projekts</title>
+    <title>Document</title>
+
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@576&family=Signika:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <div class="laiks"><p>Laiks kurā tu varētu uzzināt ko jaunu par dizaina projektu veidošanu</p>
-    <div id="clock"></div>
-    </div>
-<div class="jaut"></div>
-    <div class="container">
-
-    <button class="button-62" role="button">Jā</button>
-        <button class="runaway-button button-62" role="button" onmouseover="moveButton()">Nē</button>
-	</div>
-
-
-<script src="script.js"></script>   
+    <div class="laiks"><p class="laika-fonts">Laiks kurā tu varētu uzzināt ko jaunu par dizaina projektu veidošanu:</p>
+        <div id="datetime"></div>
+        </div>
+        <div class="container">
+            <h1>Vai gribi iziet testu par savam spējam dizaina projekta veidošanā?</h1>
+            </div>
+       
+            <div class="container-btn">
+                <button class="button-57" role="button"><span class="text" >Jā</span><span>Pareizi</span></button>
+            <span id="button1" style="position:relative;z-index:10" onmouseOver="moveIt()" onfocus="moveIt();this.blur()">
+<button class="button-57non" onmouseDown="moveIt()" onmouseover="moveIt()" onfocus="moveIt();this.blur()"><span>Nē</span></button>
+</span>
+       </div>      
+    <script src="script.js"></script>   
 </body>
 </html>
+
