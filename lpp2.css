@@ -1,34 +1,105 @@
+body{
+  background: #263859;
+}
+
+#datetime{
+color: #FF6768;
+margin: 20px;
+font-size: 35px;
+font-family: "Signika";
+background-color: #17223B;
+border-radius: 25px;
+}
+
+h1{
+  color: #17223B;
+  margin: 20px;
+  font-size: 60px;
+  font-family: "Signika"; 
+}
+
+.virsrD{
+  background-color: #6B778D;
+  border-radius: 25px;
+}
+
+.uzdteksts{
+  color: #6B778D;
+  margin: 10px;
+  font-size: 35px;
+  font-family: "Comfortaa";
+  padding: 15px;
+  border-radius: 25px;
+  background-color: #17223B;
+}
+
 #container {
-    width: 300px;
-    border: 2px solid #ccc;
+    width: 375px;
+    border: 2px solid #6B778D;
     padding: 10px;
-    border-radius: 20%;
+    border-radius: 25px;
   }
   
   .draggable {
     margin: 5px;
     padding: 10px;
-    background-color: #f0f0f0;
+    background-color: #6B778D;
     cursor: pointer;
-    border-radius: 25%;
+    border-radius: 25px;
+    color: #17223B;
+    border: 2px solid #17223B;
+    font-size: 30px;
+    font-family: "Signika";
   }
   
   .draggable:hover {
-    background-color: #ccc;
+    background-color: #FF6768;
 
   }
   
-#message{
+ol{
 
+  color: #FF6768;
+  -webkit-text-stroke: 1px #17223B;
+  font-size: 30px;
+  font-family: "Comfortaa";
 }
+
+
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 70% 30%;
     padding: 10px;
   }
   .grid-item {
-    border: 1px solid rgba(0, 0, 0, 0.8);
+
     padding: 20px;
     font-size: 30px;
     text-align: center;}
+
+  .item3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
+  table, th, td {
+    border:1px solid black;
+    border-radius: 25px;
+  }
+
+table{
+  background-color: #17223B;
+}
+th, td {
+  background-color: #6B778D;
+  font-size: 23px;
+  font-family: "Comfortaa";
+}
+
+span{
+  color: #FF6768;
+  -webkit-text-stroke: 1px #17223B;
+  font-size: 30px;
+  font-family: "Comfortaa";
+}
