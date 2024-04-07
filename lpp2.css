@@ -11,9 +11,11 @@ background-color: #17223B;
 border-radius: 25px;
 }
 
+
+
 h1{
   color: #17223B;
-  margin: 20px;
+
   font-size: 60px;
   font-family: "Signika"; 
 }
@@ -21,6 +23,8 @@ h1{
 .virsrD{
   background-color: #6B778D;
   border-radius: 25px;
+  height: fit-content;
+  align-self: center;
 }
 
 .uzdteksts{
@@ -86,6 +90,7 @@ ol{
   table, th, td {
     border:1px solid black;
     border-radius: 25px;
+    text-align: start;
   }
 
 table{
@@ -95,11 +100,53 @@ th, td {
   background-color: #6B778D;
   font-size: 23px;
   font-family: "Comfortaa";
+    padding: 10px;
+
+}
+
+#message{
+  color: #FF6768;
+  font-size: 30px;
+  font-family: "Comfortaa";
+  margin: 10px;
 }
 
 span{
   color: #FF6768;
   -webkit-text-stroke: 1px #17223B;
-  font-size: 30px;
+  font-size: 35px;
   font-family: "Comfortaa";
+}
+
+.posmJaut{
+  margin: 0%;
+  font-family: "Comfortaa";
+  font-size: 25px;
+  color: #6B778D;
+}
+
+.ievade{
+  background-color: #17223B;
+  border-radius: 25px;
+  padding: 20px;
+}
+input{
+  background-color: #6B778D;
+  border-radius: 25px;
+  width: 250px;
+  color: #17223B;
+  font-family: "Signika";
+}
+
+::placeholder{
+  color: #263859;
+  font-family: "Comfortaa";
+}
+
+button{
+  border-radius: 25px;
+  height: 40px;
+  background-color: #FF6768;
+  color: #17223B;
+  font-family: "Signika";
 }
